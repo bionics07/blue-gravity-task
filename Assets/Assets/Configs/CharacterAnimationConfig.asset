@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efae90e1c1348c04eb4a97918e79fa61, type: 3}
+  m_Name: CharacterAnimationConfig
+  m_EditorClassIdentifier: 
+  _characterAnimations:
+  - _animationKey: Idle
+    _timelineAsset: {fileID: 11400000, guid: ba8eaa0e255b4d8428371ac8ced9edec, type: 2}
+    _bodyAnimations:
+    - {fileID: 0}
+    _clothesAnimations:
+    - {fileID: 7400000, guid: 61541405515381e4ba2b866e929af2ca, type: 2}
+    - {fileID: 7400000, guid: d9c7d9746fc5bae4d9b78631ac0042ab, type: 2}
+    - {fileID: 7400000, guid: c7b75c4ebac5aa54585dcda3bab52727, type: 2}
+    - {fileID: 7400000, guid: cb7c4e47b2af4ef45872312df1ad66ed, type: 2}
+    _hairAnimations:
+    - {fileID: 7400000, guid: 4eac84cbaac14c54a925a2aed918caf1, type: 2}
+    - {fileID: 7400000, guid: f09e72b430ce05844a95123d7606834b, type: 2}
+    _hatAnimations:
+    - {fileID: 7400000, guid: 26c5c877ae54b624280a1c9615852651, type: 2}
+    - {fileID: 7400000, guid: c1c6c51d602f36349ae4436e88cdb6d5, type: 2}
+  - _animationKey: MoveDown
+    _timelineAsset: {fileID: 11400000, guid: 96d7a128ca23c164bbe4ef87114c9340, type: 2}
+    _bodyAnimations:
+    - {fileID: 7400000, guid: ed4b8bf24db3887438c8d5e6a3e7968e, type: 2}
+    _clothesAnimations:
+    - {fileID: 7400000, guid: 92e67c3a0bf5c5a459a7566d8948b50b, type: 2}
+    - {fileID: 7400000, guid: 43c61216f21ece14e97c25c779f0bea2, type: 2}
+    - {fileID: 7400000, guid: 235d2c7d4b11a794ea02058d77fdb0a7, type: 2}
+    - {fileID: 7400000, guid: ef374222790ede34885927c333693706, type: 2}
+    _hairAnimations:
+    - {fileID: 7400000, guid: b8ee010a2fc505241942017d2f3a96eb, type: 2}
+    - {fileID: 7400000, guid: bf2eaf9cd80c3e14c85e20147a7661cd, type: 2}
+    _hatAnimations:
+    - {fileID: 7400000, guid: b3bff27112ee5264f865f433deacad61, type: 2}
+    - {fileID: 7400000, guid: 063f66c6599e1404e93738ae563d19bb, type: 2}
+  - _animationKey: MoveUp
+    _timelineAsset: {fileID: 11400000, guid: 189eb81deb6b8d54fbd1d3d0803483c6, type: 2}
+    _bodyAnimations:
+    - {fileID: 7400000, guid: ccd783f1337431a448d2d7e1486dc691, type: 2}
+    _clothesAnimations:
+    - {fileID: 7400000, guid: c714d65a1022f6146a8a3a880dfce9ec, type: 2}
+    - {fileID: 7400000, guid: d2f69ce48314cf445aac8798a68642fc, type: 2}
+    - {fileID: 7400000, guid: fae53b3962a19fc41b94edcb812e06f3, type: 2}
+    - {fileID: 7400000, guid: 7e42f0e32fff9164693f0d8cb6192604, type: 2}
+    _hairAnimations:
+    - {fileID: 7400000, guid: 3789805314630964fab9acc0cd62c7b2, type: 2}
+    - {fileID: 7400000, guid: 05d44e4c7ea21474f9dca2093d394a43, type: 2}
+    _hatAnimations:
+    - {fileID: 7400000, guid: ad3891e6b2417cb4999a627f65fcdadc, type: 2}
+    - {fileID: 7400000, guid: 96d183052cb246d44ae1b2279c41173a, type: 2}
+  - _animationKey: MoveRight
+    _timelineAsset: {fileID: 11400000, guid: cf0e42af00cfc8d42b0678ea4479ad94, type: 2}
+    _bodyAnimations:
+    - {fileID: 7400000, guid: a51a54741151feb46a36b1aac49cc487, type: 2}
+    _clothesAnimations:
+    - {fileID: 7400000, guid: 0ff14689aea08f94cb502043764c6792, type: 2}
+    - {fileID: 7400000, guid: 0fe677fc30e99de4385a777a99a0cf42, type: 2}
+    - {fileID: 7400000, guid: 30e657daa17626c4c9e71f83bb265844, type: 2}
+    - {fileID: 7400000, guid: b44871211beb4954b82c7e315b771c5a, type: 2}
+    _hairAnimations:
+    - {fileID: 7400000, guid: 70a9026646737824392c6c855f2e1422, type: 2}
+    - {fileID: 7400000, guid: 2859351dbcd3da14c996e2b9399edfbc, type: 2}
+    _hatAnimations:
+    - {fileID: 7400000, guid: 04d5b59d024fe00448afe2852e50508c, type: 2}
+    - {fileID: 7400000, guid: feb73237972e97c4fbb31eca6efee852, type: 2}
+  - _animationKey: MoveLeft
+    _timelineAsset: {fileID: 11400000, guid: 1610ad912ebc64b40aacedf5c04e907b, type: 2}
+    _bodyAnimations:
+    - {fileID: 7400000, guid: 9550b8703c73bf44d8ac1ef90e4ec059, type: 2}
+    _clothesAnimations:
+    - {fileID: 7400000, guid: d0fb303a80921ca45a8f66a811df0ebb, type: 2}
+    - {fileID: 7400000, guid: 4b8719aa6954d344481977676b028782, type: 2}
+    - {fileID: 7400000, guid: 55fe0f4a0335fba4fa1ab2a893ba8136, type: 2}
+    - {fileID: 7400000, guid: 7ffe14250727390488a2ee25ca34476b, type: 2}
+    _hairAnimations:
+    - {fileID: 7400000, guid: 4fd0ef4cfe3343e448cdf7cf609ec449, type: 2}
+    - {fileID: 7400000, guid: 5cf62ba5dd7676c4daf4cc09b2c862bc, type: 2}
+    _hatAnimations:
+    - {fileID: 7400000, guid: ee91dea6a17207f49be2842bcdbc1269, type: 2}
+    - {fileID: 7400000, guid: 7f8d7eadaa1d9a249b89c00d1cafd85c, type: 2}
